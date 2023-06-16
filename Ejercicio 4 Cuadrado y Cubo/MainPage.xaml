@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio_4_Cuadrado_y_Cubo.MainPage">
+
+    <ScrollView>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Image Source="cuadrado_cubo.jpg" HeightRequest="200"/>
+            <Entry x:Name="Numero1" Placeholder="Introduce el número a elevar" Margin="10, 10, 10, 10" FontFamily="Centhry Gothic" FontSize="Medium"/>
+            <Button x:Name="Calcular" Text="Calcular" Clicked="OnButtonClicked" Margin="10, 10, 10, 10" BorderColor="Purple" BorderWidth="3" FontFamily="Centhry Gothic" FontSize="Medium" BackgroundColor="Bisque"/>
+            <Label Margin="10, 10, 10, 10" FontFamily="Centhry Gothic" FontSize="Medium">El cuadrado de este número es:</Label>
+            <Entry x:Name="CuadradoFinal" Placeholder="El cuadrado de este número es:" Margin="10, 10, 10, 10" FontFamily="Centhry Gothic" FontSize="Medium" IsEnabled="False"/>
+            <Label Margin="10, 10, 10, 10" FontFamily="Centhry Gothic" FontSize="Medium">El cubo de este número es:</Label>
+            <Entry x:Name="CuboFinal" Placeholder="El cubo de este número es:" Margin="10, 10, 10, 10" FontFamily="Centhry Gothic" FontSize="Medium" IsEnabled="False"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
